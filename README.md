@@ -15,8 +15,7 @@
 
 ## 📥 安装方法
 1. 确保浏览器已安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展。
-2. 点击以下链接安装脚本（如果浏览器提示，请确认安装）：  
-   `https://github.com/xycachen/bilibili-follow-manager/blob/main/bilibili-follow-manager.js`  
+2. 点击Releases中.user.js后缀的文件
 3. 打开 B 站关注页面，例如：
    - `https://space.bilibili.com/你的UID/fans/follow`
    - `https://www.bilibili.com/account/following`
