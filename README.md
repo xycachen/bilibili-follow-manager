@@ -16,8 +16,7 @@
 ## 📥 安装方法
 1. 确保浏览器已安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展。
 2. 点击以下链接安装脚本（如果浏览器提示，请确认安装）：  
-   `https://raw.githubusercontent.com/xycachen/bilibili-follow-manager/main/你的脚本文件名.user.js`  
-   （请将链接中的“你的脚本文件名.user.js”替换为实际文件名，例如 `bilibili-follow-manager.user.js`）
+   `https://github.com/xycachen/bilibili-follow-manager/blob/main/bilibili-follow-manager.js`  
 3. 打开 B 站关注页面，例如：
    - `https://space.bilibili.com/你的UID/fans/follow`
    - `https://www.bilibili.com/account/following`
@@ -74,3 +73,21 @@ const CONFIG = {
     REQUEST_TIMEOUT: 8000,
     BATCH_RENDER_SIZE: 10,      // 每多少个 UP 主渲染一次表格
 };
+```
+## 📝 更新日志
+- v11.0 (2025-03-25): 并发加载，速度提升；修复导出跳转问题；修复 HTML 实体乱码。
+
+- v10.0 (2025-03-24): 修复关注日期显示；增加导入导出功能。
+
+- v1.0 (2025-03-23): 初始版本。
+
+## 📄 许可证
+- 本项目采用 MIT 许可证，详情见 LICENSE 文件。
+
+## 🙏 致谢
+- 感谢所有使用和反馈问题的朋友。
+
+- 本脚本完全为豆包和 deepseek 两大 AI 制作。
+
+
+
